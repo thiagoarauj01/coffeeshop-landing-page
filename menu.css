@@ -1,0 +1,75 @@
+.section-2 h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.section-2 span{
+    color: #d3ad7f;
+}
+
+.container-card-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img{
+    border: solid 1px rgb(255, 255, 255, .3);
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+
+.card-img img{
+    width: 120px;
+    height: auto;
+}
+
+.card-img h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.card-img p{
+    color: #ccc;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.card-img button{
+    margin-top: 0.5rem;
+    background-color:#d3ad7f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-img span{
+    color: white;
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all;
+    background-color: #0d0d0f;
+}
+
+.container-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

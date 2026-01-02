@@ -1,0 +1,62 @@
+.section-1{
+    padding: 5rem;
+}
+
+.section-1 h1{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.section-1 span{
+    color: #d3ad7f;
+}
+
+.sobre-nós{
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.sobre-nós img{
+    max-width: 100%;
+    width: 80rem;
+    height: auto;
+}
+
+.sobre-nós-title{
+    margin-left: 1.3rem;
+}
+
+.sobre-nós-title h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.sobre-nós-title p{
+    line-height: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #ccc;
+    width: 45rem;
+}
+
+.sobre-nós-title button{
+    margin-top: 2rem;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sobre-nós-title button:hover{
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
